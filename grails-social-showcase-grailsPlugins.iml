@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/hibernate-1.3.6">
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/hibernate-1.3.6/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/hibernate-1.3.6/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/hibernate-1.3.6/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/spring-security-core-1.1.2/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/web-app/plugins" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.3.6" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.7.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.7.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/jars/h2-1.3.146.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.web/jars/org.springframework.security.web-3.0.4.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.core/jars/org.springframework.security.core-3.0.4.RELEASE.jar!/" />
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

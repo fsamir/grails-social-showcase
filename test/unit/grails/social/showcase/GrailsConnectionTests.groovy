@@ -1,0 +1,17 @@
+package grails.social.showcase
+
+import grails.test.*
+
+class GrailsConnectionTests extends GrailsUnitTestCase {
+    protected void setUp() {
+        super.setUp()
+    }
+
+    protected void tearDown() {
+        super.tearDown()
+    }
+
+    void testSomething() {
+
+    }
+}
