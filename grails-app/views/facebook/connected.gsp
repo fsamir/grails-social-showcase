@@ -3,10 +3,11 @@
 <html>
 <head>
     <title>Grails Social Showcase by Foldders.com: Connected to Facebook</title>
+    <meta name='layout' content='main' />
     <g:javascript library="jquery" plugin="jquery"/>
 </head>
 <body>
-<h1>Grails Social Showcase by Foldders.com: Connected to Facebook</h1>
+<h1>Connected to Facebook</h1>
 
 <form action="${createLink(controller: 'connect', params: [providerId: 'facebook'])}" id="disconnect" method="post">
     <input type="hidden" name="_method" value="DELETE" id="_method"/>

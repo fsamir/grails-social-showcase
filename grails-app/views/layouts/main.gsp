@@ -12,7 +12,10 @@
         <div id="spinner" class="spinner" style="display:none;">
             <img src="${resource(dir:'images',file:'spinner.gif')}" alt="${message(code:'spinner.alt',default:'Loading...')}" />
         </div>
-        <div id="grailsLogo"><a href="http://grails.org"><img src="${resource(dir:'images',file:'grails_logo.png')}" alt="Grails" border="0" /></a></div>
+        %{--<div id="grailsLogo"><a href="http://grails.org"><img src="${resource(dir:'images',file:'grails_logo.png')}" alt="Grails" border="0" /></a></div>--}%
+        <div id="logo">
+        <a href="http://foldders.com">
+            <img src="${resource(dir:'images',file:'foldders_logo.png')}" alt="Foldders: Software House" border="0" /></a></div>
         <g:layoutBody />
     <div id="footer">
         <p>Grails Social Showcase</p>

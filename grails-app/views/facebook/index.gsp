@@ -5,9 +5,10 @@
 <html>
 <head>
 	<title>Grails Social Showcase by Foldders.com: Facebook</title>
+    <meta name='layout' content='main' />
 </head>
 <body>
-	<h1>Grails Social Showcase by Foldders.com: Facebook</h1>
+	<h1>Facebook</h1>
 
 	<p>Hello, ${facebookUser.firstName} (<g:link controller="connect" params="[providerId:'facebook']">Disconnect from Facebook</g:link>)</p>
 	

@@ -1,9 +1,10 @@
 <html>
 <head>
     <title>Grails Social Showcase by Foldders.com: Send a Tweet</title>
+    <meta name='layout' content='main' />
 </head>
 <body>
-<h1>Grails Social Showcase by Foldders.com: Send a Tweet</h1>
+<h1>Send a Tweet</h1>
 
 <p>Your Grails Social Showcase by Foldders.com account is connected to the following Twitter profiles:</p>
 <g:each in="${connectedProfiles}" var="profile">

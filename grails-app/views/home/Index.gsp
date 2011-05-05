@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Grails Social Showcase by Foldders</title>
+    <meta name='layout' content='main' />
 </head>
 <body>
 <h1>Grails Social Showcase by Foldders</h1>

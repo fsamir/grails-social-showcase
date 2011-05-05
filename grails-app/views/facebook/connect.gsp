@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>Grails Social Showcase by Foldders.com: Connect to Facebook</title>
+    <meta name='layout' content='main' />
 	<g:javascript library="jquery" plugin="jquery"/>
     <script>
 		function signInWithFacebook() {
@@ -16,7 +17,7 @@
 	</script>
 </head>
 <body>
-	<h1>Grails Social Showcase by Foldders.com: Connect to Facebook</h1>
+	<h1>Connect to Facebook</h1>
 
    <form action="${createLink(controller:'connect', params:[providerId:'facebook'])}" method="post">
 		<input type="hidden" name="scope" value="publish_stream,offline_access" />

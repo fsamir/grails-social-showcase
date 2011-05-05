@@ -1,6 +1,5 @@
 html * {
-    margin: 0;
-    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+    margin: 0; /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
 }
 
 /* GENERAL */
@@ -16,8 +15,9 @@ body {
     color: #333;
     font: 11px verdana, arial, helvetica, sans-serif;
 }
+
 #grailsLogo {
-	padding:20px;
+    padding: 20px;
 }
 
 a:link, a:visited, a:hover {
@@ -44,13 +44,15 @@ input, select, textarea {
     margin: 2px 0;
     padding: 2px 4px;
 }
+
 select {
-   padding: 2px 2px 2px 0;
+    padding: 2px 2px 2px 0;
 }
+
 textarea {
-	width: 250px;
-	height: 150px;
-	vertical-align: top;
+    width: 250px;
+    height: 150px;
+    vertical-align: top;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -76,20 +78,24 @@ input:focus, select:focus, textarea:focus {
     font-size: 10px;
     padding: 0 5px;
 }
+
 .menuButton a {
     color: #333;
     padding: 4px 6px;
 }
+
 .menuButton a.home {
     background: url(../images/skin/house.png) center left no-repeat;
     color: #333;
     padding-left: 25px;
 }
+
 .menuButton a.list {
     background: url(../images/skin/database_table.png) center left no-repeat;
     color: #333;
     padding-left: 25px;
 }
+
 .menuButton a.create {
     background: url(../images/skin/database_add.png) center left no-repeat;
     color: #333;
@@ -113,22 +119,32 @@ div.errors {
     margin: 10px 0 5px 0;
     padding: 5px 0 5px 0;
 }
+
 div.errors ul {
     list-style: none;
     padding: 0;
 }
+
 div.errors li {
-	background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
+    background: url(../images/skin/exclamation.png) 8px 0% no-repeat;
     line-height: 16px;
     padding-left: 30px;
+}
+
+div#footer {
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 30px;
 }
 
 td.errors select {
     border: 1px solid red;
 }
+
 td.errors input {
     border: 1px solid red;
 }
+
 td.errors textarea {
     border: 1px solid red;
 }
@@ -139,9 +155,11 @@ table {
     border: 1px solid #ccc;
     width: 100%
 }
+
 tr {
     border: 0;
 }
+
 td, th {
     font: 11px verdana, arial, helvetica, sans-serif;
     line-height: 12px;
@@ -149,6 +167,7 @@ td, th {
     text-align: left;
     vertical-align: top;
 }
+
 th {
     background: #fff url(../images/skin/shadow.jpg);
     color: #666;
@@ -157,6 +176,7 @@ th {
     line-height: 17px;
     padding: 2px 6px;
 }
+
 th a:link, th a:visited, th a:hover {
     color: #333;
     display: block;
@@ -164,13 +184,16 @@ th a:link, th a:visited, th a:hover {
     text-decoration: none;
     width: 100%;
 }
+
 th.asc a, th.desc a {
     background-position: right;
     background-repeat: no-repeat;
 }
+
 th.asc a {
     background-image: url(../images/skin/sorted_asc.gif);
 }
+
 th.desc a {
     background-image: url(../images/skin/sorted_desc.gif);
 }
@@ -178,6 +201,7 @@ th.desc a {
 .odd {
     background: #f7f7f7;
 }
+
 .even {
     background: #fff;
 }
@@ -187,9 +211,11 @@ th.desc a {
 .list table {
     border-collapse: collapse;
 }
+
 .list th, .list td {
     border-left: 1px solid #ddd;
 }
+
 .list th:hover, .list tr:hover {
     background: #b2d1ff;
 }
@@ -205,6 +231,7 @@ th.desc a {
     overflow: hidden;
     padding: 10px 3px;
 }
+
 .paginateButtons a {
     background: #fff;
     border: 1px solid #ccc;
@@ -213,6 +240,7 @@ th.desc a {
     margin: 0 3px;
     padding: 2px 6px;
 }
+
 .paginateButtons span {
     padding: 2px 3px;
 }
@@ -226,11 +254,13 @@ th.desc a {
 .prop {
     padding: 5px;
 }
+
 .prop .name {
     text-align: left;
     width: 15%;
     white-space: nowrap;
 }
+
 .prop .value {
     text-align: left;
     width: 85%;
@@ -259,14 +289,17 @@ th.desc a {
     overflow: visible;
     padding: 2px 6px;
 }
+
 .buttons input.delete {
     background: transparent url(../images/skin/database_delete.png) 5px 50% no-repeat;
     padding-left: 28px;
 }
+
 .buttons input.edit {
     background: transparent url(../images/skin/database_edit.png) 5px 50% no-repeat;
     padding-left: 28px;
 }
+
 .buttons input.save {
     background: transparent url(../images/skin/database_save.png) 5px 50% no-repeat;
     padding-left: 28px;
