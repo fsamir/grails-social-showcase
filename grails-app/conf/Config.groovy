@@ -103,15 +103,10 @@ grails.plugins.springsecurity.userLookup.userDomainClassName = 'grails.social.sh
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'grails.social.showcase.AccountRole'
 grails.plugins.springsecurity.authority.className = 'grails.social.showcase.Role'
 
-// social keys
-//facebook {
-//    appId ="0b754d95f9c9899b0d6c4454b6f2dde7"
-//    appSecret = "fa8a9825f555a7a8949ec48fb93bda58"
-//}
 
 facebook {
-    appId = "27d9bcea3c686d1bdaaf597f725ca875"
-    appSecret = "0e1037e0edbe4d378c32e2e1a0be77d1"
+    appId = "178054965579692"
+    appSecret = "fc509611e1cc28b5a8c75db650bcd63d"
     postToWallFlag = "postToWall"
 }
 

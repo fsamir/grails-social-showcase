@@ -46,12 +46,32 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/jars/h2-1.3.146.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.web/jars/org.springframework.security.web-3.0.4.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.core/jars/org.springframework.security.core-3.0.4.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-tripit/jars/spring-social-tripit-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context-support/jars/spring-context-support-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-facebook/jars/spring-social-facebook-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-web/jars/spring-social-web-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-twitter/jars/spring-social-twitter-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context/jars/spring-context-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-asm/jars/spring-asm-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-core/jars/spring-core-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jdom/jdom/jars/jdom-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/rome/rome/jars/rome-0.9.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-web/jars/spring-web-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-core/jars/spring-social-core-1.0.0.M2.jar!/" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/javadocs/commons-logging-1.1.1-javadoc.jar!/" />
+        </JAVADOC>
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/spring-social-core-1.0.0.M2-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/lib/spring-social-facebook-1.0.0.M2-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/lib/spring-social-web-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/sources/commons-logging-1.1.1-sources.jar!/" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>

@@ -4,7 +4,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Grails Social Showcase by Foldders.com: Facebook</title>
+	<title>Grails Social Showcase: Facebook</title>
     <meta name='layout' content='main' />
 </head>
 <body>

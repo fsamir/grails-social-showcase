@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Grails Social Showcase by Foldders.com: Connect to Facebook</title>
+	<title>Grails Social Showcase: Connect to Facebook</title>
     <meta name='layout' content='main' />
 	<g:javascript library="jquery" plugin="jquery"/>
     <script>
@@ -22,10 +22,10 @@
    <form action="${createLink(controller:'connect', params:[providerId:'facebook'])}" method="post">
 		<input type="hidden" name="scope" value="publish_stream,offline_access" />
 		<div class="formInfo">
-			<p>Click the button to connect Grails Social Showcase by Foldders.com with your Facebook account.</p>
+			<p>Click the button to connect Grails Social Showcase with your Facebook account.</p>
 		</div>
 		<p><button type="submit"><img src="${createLinkTo(dir: 'images/social/facebook', file: 'connect_light_medium_short.gif')}" /></button></p>
-		<label for="postToWall"><g:checkBox id="postToWall" name="${grailsApplication.config.facebook.postToWallFlag}" />  Tell your friends about Grails Social Showcase by Foldders.com on your Facebook wall</label>
+		<label for="postToWall"><g:checkBox id="postToWall" name="${grailsApplication.config.facebook.postToWallFlag}" />  Tell your friends about Grails Social Showcase on your Facebook wall</label>
 	</form>
 	
 	<form id="fb_signin" action="${createLink(controller:'connect', params:[providerId:'facebook'])}" method="post">

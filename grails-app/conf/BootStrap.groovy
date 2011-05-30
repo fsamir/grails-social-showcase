@@ -11,8 +11,8 @@ class BootStrap {
         def userRole = new Role(authority: "ROLE_USER").save(flush: true)
 
         def account1 = new Account(
-                username: "foldders",
-                password: springSecurityService.encodePassword("foldders"),
+                username: "11folders",
+                password: springSecurityService.encodePassword("11folders"),
                 enabled: true
         ).save(flush: true)
         AccountRole.create account1, userRole, true

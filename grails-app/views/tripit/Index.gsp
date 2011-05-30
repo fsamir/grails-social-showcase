@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>Grails Social Showcase by Foldders.com: TripIt</title>
+	<title>Grails Social Showcase: TripIt</title>
 </head>
 <body>
-<h1>Grails Social Showcase by Foldders.com: TripIt</h1>
+<h1>Grails Social Showcase: TripIt</h1>
 
 <p>Hello ${tripItUser.publicDisplayName} !</p>
 <p>Your TripIt profile:</p>

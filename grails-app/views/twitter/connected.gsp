@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Grails Social Showcase by Foldders.com: Connected to Twitter</title>
+    <title>Grails Social Showcase: Connected to Twitter</title>
     <meta name='layout' content='main' />
 </head>
 <body>
@@ -9,7 +9,7 @@
 <form action="${createLink(controller: 'connect', params: [providerId: 'twitter'])}" id="disconnect" method="post">
     <input type="hidden" name="_method" value="delete"/>
     <div class="formInfo">
-        <p>The Grails Social Showcase by Foldders.com sample application is already connected to your Twitter account.
+        <p>The Grails Social Showcase sample application is already connected to your Twitter account.
         Click the button if you wish to disconnect.
     </div>
 

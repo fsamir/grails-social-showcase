@@ -5,6 +5,8 @@
       <configuration>
         <webroots>
           <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/jquery-1.5.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -40,24 +42,49 @@
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/target/test-classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/web-app/plugins" />
     </content>
+    <content url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/grails-app/domain" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/grails-app/services" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/torpedeiro-0.1/web-app/plugins" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-1.3.6" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library">
         <CLASSES>
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/lib" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.7.3.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.7.3.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.h2database/h2/jars/h2-1.3.146.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.web/jars/org.springframework.security.web-3.0.4.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.security/org.springframework.security.core/jars/org.springframework.security.core-3.0.4.RELEASE.jar!/" />
-          <root url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/lib" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-tripit/jars/spring-social-tripit-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context-support/jars/spring-context-support-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-facebook/jars/spring-social-facebook-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-web/jars/spring-social-web-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-twitter/jars/spring-social-twitter-1.0.0.M2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context/jars/spring-context-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-asm/jars/spring-asm-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-core/jars/spring-core-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jdom/jdom/jars/jdom-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/rome/rome/jars/rome-0.9.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-web/jars/spring-web-3.1.0.M1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.social/spring-social-core/jars/spring-social-core-1.0.0.M2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$USER_HOME$/.grails/1.3.6/projects/grails-social-showcase/plugins/tomcat-1.3.6/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.3.6" level="application" />
   </component>
 </module>
 

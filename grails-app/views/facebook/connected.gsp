@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Grails Social Showcase by Foldders.com: Connected to Facebook</title>
+    <title>Grails Social Showcase: Connected to Facebook</title>
     <meta name='layout' content='main' />
     <g:javascript library="jquery" plugin="jquery"/>
 </head>
@@ -13,7 +13,7 @@
     <input type="hidden" name="_method" value="DELETE" id="_method"/>
     <div class="formInfo">
         <p>
-            Grails Social Showcase by Foldders.com is connected to your Facebook account.
+            Grails Social Showcase is connected to your Facebook account.
             Click the button if you wish to disconnect.
         </p>
     </div>

@@ -132,8 +132,8 @@ div.errors li {
 }
 
 div#footer {
-    text-align: left;
-    padding-left: 300px;
+    text-align: center;
+    padding-left: 0px;
     padding-top: 30px;
 }
 

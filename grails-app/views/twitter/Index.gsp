@@ -1,12 +1,12 @@
 <html>
 <head>
-    <title>Grails Social Showcase by Foldders.com: Send a Tweet</title>
+    <title>Grails Social Showcase: Send a Tweet</title>
     <meta name='layout' content='main' />
 </head>
 <body>
 <h1>Send a Tweet</h1>
 
-<p>Your Grails Social Showcase by Foldders.com account is connected to the following Twitter profiles:</p>
+<p>Your Grails Social Showcase account is connected to the following Twitter profiles:</p>
 <g:each in="${connectedProfiles}" var="profile">
     <div>
         <p><a href="${profile.profileUrl}" target="_blank"><img src="${profile.profileImageUrl}" border="0"/></a></p>
@@ -20,13 +20,13 @@
 </form>
 
 <form action="${createLink(controller: 'connect', params: [providerId: 'twitter'])}" method="post">
-    <p>You may connect multiple Twitter profiles with a Grails Social Showcase by Foldders.com account. To connect with another
+    <p>You may connect multiple Twitter profiles with a Grails Social Showcase account. To connect with another
     Twitter profile, click the button.</p>
     <p>(Note: If you are still logged into Twitter as any one of the profiles that are already connected, you'll need to
-    click the "Sign Out" link when Twitter prompts you to allow access to Grails Social Showcase by Foldders.com and then login as a
+    click the "Sign Out" link when Twitter prompts you to allow access to Grails Social Showcase and then login as a
     different Twitter user.)</p>
     <p><button type="submit">Connect another Twitter profile</button></p>
-    <label for="postTweet"><g:checkBox id="postTweet" name="${grailsApplication.config.twitter.postTweetFlag}"/> Post a tweet about connecting with Grails Social Showcase by Foldders.com</label>
+    <label for="postTweet"><g:checkBox id="postTweet" name="${grailsApplication.config.twitter.postTweetFlag}"/> Post a tweet about connecting with Grails Social Showcase</label>
 </form>
 
 <g:form action="tweet" method="post">

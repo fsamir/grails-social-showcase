@@ -72,11 +72,11 @@
             <p>&nbsp;</p>
             <p><b>Not registered? Try the test user:</b></p>
             <p>
-                <b>Username:</b> foldders
+                <b>Username:</b> 11folders
 
             </p>
             <p>
-                <b>Password:</b> foldders
+                <b>Password:</b> 11folders
             </p>
         </div>
 	</div>
